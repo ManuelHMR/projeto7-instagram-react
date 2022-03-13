@@ -6,7 +6,7 @@ export default function NavBar(){
         "compass-outline",
         "heart-outline",
         "person-outline"
-    ];
+      ];
     return (
         <div class="navbar">
             <div class="container">
@@ -29,11 +29,11 @@ export default function NavBar(){
                 </div>
 
                 <div class="icones">
-                    <ion-icon name="person-outline"></ion-icon>
+                    <IonIconsMap icons={icons}/>
                 </div>
 
                 <div class="icones-mobile">
-                    <IonIconsMap icons={icons}></IonIconsMap>
+                    <ion-icon name="paper-plane-outline"></ion-icon>
                 </div>
             </div>
       </div>
