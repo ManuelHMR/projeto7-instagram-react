@@ -1,7 +1,7 @@
 import Stories from "./stories/Stories";
 import Posts from "./posts/Posts";
 import User from "./User";
-import Suggestions from "./suggestions/Suggestion";
+import Suggestions from "./suggestions/Suggestions";
 export default function Body(){
 
     return (
