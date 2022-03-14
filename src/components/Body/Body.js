@@ -12,7 +12,11 @@ export default function Body(){
         </div>
 
         <div class="sidebar">
-          <User />
+          <User 
+          userNick="catanacomics"
+          userName="Catana"
+          userPic="assets/img/catanacomics.svg"
+          />
           <Suggestions />
 
           <div class="links">
